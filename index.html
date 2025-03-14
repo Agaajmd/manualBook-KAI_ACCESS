@@ -8,52 +8,56 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
+            background-color: #f4f7fc;
             color: #333;
         }
 
         header {
-            background-color: #007bff;
+            background-color: #0056b3;
             color: white;
             text-align: center;
-            padding: 20px 0;
-            font-size: 1.5em;
+            padding: 20px;
+            font-size: 1.8em;
+            font-weight: bold;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         main {
             width: 90%;
-            max-width: 800px;
-            margin: 20px auto;
-            background: white;
+            max-width: 1000px;
+            margin: 30px auto;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
         }
 
-        h2,
-        h3 {
-            color: #007bff;
-            font-size: xx-large;
+        section {
+            margin-bottom: 40px;
         }
-        h4{
-            font-weight: bold;
-            color: #0697ff;
-            font-size: large;
+
+        h2 {
+            color: #0056b3;
+            font-size: 1.8em;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
         }
-        h5 {
-            color: #2f7db4;
-            font-size: larger;
+
+        h3, h4, h5 {
+            color: #0275d8;
         }
 
         p {
             line-height: 1.6;
+            font-size: 1.1em;
+            margin-bottom: 15px;
         }
 
         a {
-            color: #0056b3;
+            color: #004085;
             text-decoration: none;
             font-weight: bold;
         }
@@ -62,17 +66,31 @@
             text-decoration: underline;
         }
 
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
         img {
             max-width: 100%;
             height: auto;
-            display: block;
-            margin: 15px auto;
-            border-radius: 5px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
 
-        section {
-            margin-bottom: 30px;
+        .card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        hr {
+            border: 0;
+            height: 2px;
+            background: #0056b3;
+            margin: 30px 0;
         }
     </style>
 </head>
@@ -115,7 +133,7 @@
             <br>
             <hr>
             <br>
-            <article>
+            <article class="card">
                 <h3>Admin</h3>
                 <p>Login sebagai admin untuk mengakses halaman admin</p>
                 <p>ADMIN username: rapi | password: aaaabbbb</p>
