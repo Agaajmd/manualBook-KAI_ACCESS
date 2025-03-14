@@ -34,9 +34,18 @@
         }
 
         h2,
-        h3,
-        h4 {
+        h3 {
             color: #007bff;
+            font-size: xx-large;
+        }
+        h4{
+            font-weight: bold;
+            color: #0697ff;
+            font-size: large;
+        }
+        h5 {
+            color: #2f7db4;
+            font-size: larger;
         }
 
         p {
@@ -82,43 +91,128 @@
                 <p>1. Login pada web KAI ACCESS:</p>
                 <p><a href="https://kai-access-betaaga.vercel.app"
                         target="_blank">https://kai-access-betaaga.vercel.app</a></p>
-                <img src="img/login.png" alt="Halaman Login KAI ACCESS">
-                <p>2. Login dengan username dan password default, lalu muncul tampilan berikut:</p>
-                <p>ADMIN username: rapi | password: aaaabbbb</p>
+                <img src="img/login.png" >
+                <p>2. Login dengan menggunakan username dan password default yang
+                    diberikan, lalu muncul tampilan seperti ini</p>
                 <p>PELANGGAN username: rapiiii | password: bbbbaaaa</p>
-                <img src="img/pelangganDashbord.png" alt="Dashboard Pelanggan">
-                <p>3. Isi alamat tujuan dan cari tiket kereta api.</p>
-                <img src="img/pelangganDashbord.png" alt="Pencarian Tiket">
-                <p>4. Pilih tiket yang tersedia.</p>
-                <img src="img/pelangganDataKursi.png" alt="Memilih Tiket">
-                <p>5. Pilih kursi yang kosong, lalu tekan ORDER.</p>
-                <img src="img/PelangganKursi.png" alt="Pilih Kursi yang Kosong">
-                <p>6. Cek history tiket di menu History dengan memasukkan rentang tanggal.</p>
-                <img src="img/PelangganHistory.png" alt="History Pesanan">
+                <img src="img/pelanggan/pelangganDashbord.png">
+                <p>3. Pada halaman ini pelanggan dimintai untuk mengisi alamat tujuan dan
+                    tujuan yang akan dituju untuk mencari tiket dari kereta api</p>
+                <img src="img/pelanggan/pelanggan.png">
+                <p>4. .Setelah muncul tiket kereta api yang akan dituju, silahkan untuk memilih
+                    opsi pesan</p>
+                <img src="img/pelanggan/pelanggan.png" >
+                <p>5. Setelah memilih opsi pesan akan muncul macam macam gerbong yang
+                    memiliki keterangan kursi yang kosong dan terisi, silahkan untuk pelanggan
+                    mengisi kursi yang kosong, lalu pilih PESAN SEKARANG</p>
+                <img src="img/pelanggan/pelangganDataKursi.png" >
+                <p>6. Pilih menu History untuk melihat history tiket yang telah dipesan oleh
+                    pelanggan, dengan memasukkan range tanggal lalu CARI HISTORY
+                    PESANAN.</p>
+                <img src="img/pelanggan/PelangganHistory.png" >
+                <img src="img/pelanggan/HistoryHasil.png" >
             </article>
-
+            <br>
+            <hr>
+            <br>
             <article>
                 <h3>Admin</h3>
                 <p>Login sebagai admin untuk mengakses halaman admin</p>
+                <p>ADMIN username: rapi | password: aaaabbbb</p>
                 <p><a href="https://kai-access-betaaga.vercel.app"
                         target="_blank">https://kai-access-betaaga.vercel.app</a></p>
-                <img src="img/adminDasbord.png" alt="Halaman Login Admin">
                 <p>Setelah login Anda menemui halaman seperti ini:</p>
-                <img src="img/adminDataKereta.png" alt="Dashboard Admin">
-                
-                <h4>Data Kereta</h4>
-                <p>Tekan tombol tambah data kereta dan isi Nama, Deskripsi, serta Tipe kereta, lalu tekan SAVE.</p>
-                <img src="img/adminAddgerbong.png" alt="Menambah Data Kereta">
-                <p>Pilih opsi EDIT untuk mengedit data kereta yang telah dibuat.</p>
-                <p>Pilih opsi sampah untuk menghapus data kereta yang telah dibuat.</p>
-                <h4>Data Gerbong</h4>
-                <p>Klik pada nama kereta untuk masuk ke halaman Data Gerbong.</p>
-                <img src="" alt="Data Gerbong">
-                <p>Tekan tombol TAMBAH DATA GERBONG dan isi Nama serta jumlah kursi lalu tekan SAVE.</p>
-                <img src="/t" alt="Menambah Data Gerbong">
-                <p>Pilih opsi EDIT untuk mengedit data gerbong yang telah dibuat.</p>
-                <img src="" alt="Edit Data Gerbong">
-                <p>Pilih opsi SAMPAH untuk menghapus data gerbong yang telah dibuat.</p>
+                <img src="img/admin/dashboardSidebar.png">
+                <br>
+
+                <h5>Data Kereta</h5>
+                <p>1. Tambah kereta</p>
+                <img src="img/admin/AddKereta.png" >
+                <p>Tekan tombol tambah data kereta dan mengisi Nama kereta, deskripsi
+                kereta, dan tipe kereta lalu tekan SAVE</p>
+                <p>2. Edit Kereta</p>
+                <img src="img/admin/EditKereta.png" >
+                <p>Pilih opsi edit untuk mengedit/merubah data kereta yang telah dibuat</p>
+                <p>3. Hapus Kereta.</p>
+                <p>Pilih opsi sampah untuk menghapus data kereta yang telah dibuat</p>
+                <br>
+
+                <h5>Data Gerbong</h5>
+                <img src="img/admin/KursiGerbong.png">
+                <p>Klik pada nama kereta untuk masuk kehalam Data gerbong</p>
+                <p>1. Tambah Gerbong</p>
+                <img src="img/admin/AddGerbong.png" >
+                <p>Tekan tombol TAMBAH DATA GERBONG dan mengisi Nama gerbong dan
+                jumlah kursi lalu tekan SAVE</p>
+                <p>2. Edit Gerbong</p>
+                <img src="img/admin/EditGerbong.png" >
+                <p>Pilih opsi EDIT untuk mengedit/merubah data gerbong yang telah dibuat</p>
+                <p>3. Hapus Gerbong</p>
+                <p>Pilih opsi SAMPAH untuk menghapus datagerbong yang telah dibuat</p>
+                <br>
+
+                <h5>Data Kursi</h5>
+                <img src="img/admin/Kursi.png">
+                <p>1. Tambah kursi</p>
+                <img src="img/admin/AddKursi.png">
+                <p>Tekan ikon PLUS pada halaman yang berada dalam gerbong untuk
+                menambah kursi dengan memasukkan nomor kursi</p>
+                <p>2. Edit Kursi</p>
+                <img src="img/admin/EditKursi.png">
+                <p>Pilih opsi EDIT untuk mengedit/merubah data kursi yang telah dibuat</p>
+                <p>3. Hapus Kursi</p>
+                <p>Pilih opsi SAMPAH untuk menghapus data kursi yang telah dibuat</p>
+                <br>
+
+                <h5>Data Admin</h5>
+                <p>1. Tambah Admin</p>
+                <img src="img/admin/AddAdmin.png" >
+                <p>Tekan tombol TAMBAH DATA ADMIN untuk menambahkan admin dengan
+                memasukkan Biodata dan tekan SAVE untuk menyimpan</p>
+                <p>2. Edit Admin</p>
+                <img src="img/admin/EditAdmin.png">
+                <p>Pilih opsi EDIT untuk mengedit/merubah data admin yang telah dibuat</p>
+                <p>3. Hapus Admin</p>
+                <p>Pilih opsi SAMPAH untuk menghapus data admin yang telah dibuat</p>
+                <p>4. Reset Password</p>
+                <img src="img/admin/ResetPasswordA.png">
+                <p>Pilih opsi RESET PASSWORD untuk mengganti passoword admin
+                apabila mau</p>
+                <br>
+
+                <h5>Data Pelanggan</h5>
+                <p>1. Tambah Pelanggan</p>
+                <img src="img/admin/AddUser.png">
+                <p>Tekan tombol TAMBAH DATA PELANGGAN untuk menambahkan pelanggan
+                dengan memasukkan Biodata dan tekan SAVE untuk menyimpan</p>
+                <p>2. Edit Pelanggan</p>
+                <img src="img/admin/EditUser.png">
+                <p>Pilih opsi EDIT untuk mengedit/merubah data pelanggan yang telah dibuat</p>
+                <p>3. Hapus Pelanggan</p>
+                <p>Pilih opsi SAMPAH untuk menghapus data pelanggan yang telah dibuat</p>
+                <p>4. Reset Password</p>
+                <img src="img/admin/ResetPasswordP.png">
+                <p>Pilih opsi RESET PASSWORD untuk mengganti passoword Pelanggan
+                apabila mau</p>
+                <br>
+
+                <h5>Data Jadwal</h5>
+                <img src="img/admin/Jadwal.png">
+                <p>1. Tambah Jadwal</p>
+                <img src="img/admin/AddSchedule.png">
+                <p>Tekan tombol TAMBAH DATA JADWAL untuk menambahkan data keberangkatan, harga, jenis kereta, dan waktu
+                dan tekan SAVE untuk menyimpan</p>
+                <p>2. Edit Jadwal</p>
+                <img src="img/admin/EditSchedule.png">
+                <p>Pilih opsi EDIT untuk mengedit/merubah data jadwal yang telah dibuat</p>
+                <p>3. Hapus Jadwal</p>
+                <p>Pilih opsi SAMPAH untuk menghapus data jadwal yang telah dibuat</p>
+                <br>
+
+                <h5>Log Out</h5>
+                <p>keluar</p>
+                <img src="img/logout.png">
+                <p>Pilih opsi KELUAR pada Sidebar untuk ke halaman Login</p>
             </article>
         </section>
     </main>
